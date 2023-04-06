@@ -4,6 +4,18 @@
   <test thread-count="2" parallel="tests" name="Test-runner-1(failed)">
     <parameter name="BROWSER" value="chrome"/>
     <classes>
+      <class name="Practicepackage.TS_03">
+        <methods>
+          <include name="Script6"/>
+          <include name="Script5"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_03 -->
       <class name="Practicepackage.TS_01">
         <methods>
           <include name="configAM"/>
@@ -15,11 +27,48 @@
           <include name="configBC"/>
         </methods>
       </class> <!-- Practicepackage.TS_01 -->
+      <class name="Practicepackage.TS_04">
+        <methods>
+          <include name="Script8"/>
+          <include name="configAM"/>
+          <include name="Script7"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_04 -->
+      <class name="Practicepackage.TS_02">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="Script9"/>
+          <include name="Script3"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="Script4"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_02 -->
     </classes>
   </test> <!-- Test-runner-1(failed) -->
   <test thread-count="2" parallel="tests" name="Test-runner-2(failed)">
     <parameter name="BROWSER" value="edge"/>
     <classes>
+      <class name="Practicepackage.TS_03">
+        <methods>
+          <include name="Script6"/>
+          <include name="Script5"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_03 -->
       <class name="Practicepackage.TS_01">
         <methods>
           <include name="configAM"/>
@@ -31,6 +80,31 @@
           <include name="configBC"/>
         </methods>
       </class> <!-- Practicepackage.TS_01 -->
+      <class name="Practicepackage.TS_04">
+        <methods>
+          <include name="Script8"/>
+          <include name="configAM"/>
+          <include name="Script7"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_04 -->
+      <class name="Practicepackage.TS_02">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="Script9"/>
+          <include name="Script3"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+          <include name="Script4"/>
+        </methods>
+      </class> <!-- Practicepackage.TS_02 -->
     </classes>
   </test> <!-- Test-runner-2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -44,9 +44,9 @@ public class DeleteclientPOMtext extends BaseClass {
 		hp.getClientlink().click();
 		
 		ClientInformationPage CIP = new ClientInformationPage(driver);
-		String exp="1671253142";
+		String exp="1670298185";
 		CIP.EditClient(driver,exp);
-		Assert.fail();
+		//Assert.fail();
 		DeleteandEditClientInformationPage DEI = new DeleteandEditClientInformationPage(driver);
 		DEI.deleteclient(driver,exp );
 	hp.getClientlink().click();

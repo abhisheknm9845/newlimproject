@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practicepackage.TS_02">
+      <class name="Clientintegration.EditClientPOMScript">
         <methods>
           <include name="configAM"/>
           <include name="configBM"/>
           <include name="configAS"/>
           <include name="configAC"/>
-          <include name="Script9"/>
-          <include name="Script3"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="Script4"/>
+          <include name="EditClient"/>
         </methods>
-      </class> <!-- Practicepackage.TS_02 -->
+      </class> <!-- Clientintegration.EditClientPOMScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

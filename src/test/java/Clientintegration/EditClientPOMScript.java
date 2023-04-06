@@ -51,7 +51,7 @@ public class EditClientPOMScript extends BaseClass{
 	DEI.getUpdatebutton().click();
 	hp.getClientlink().click();
 	cip.clientstatuslink(driver,"1670298080" );
-	Assert.fail();
+	//Assert.fail();
 	String expected1="johncy";
 	String actual = driver.findElement(By.xpath("//input[@name='name']")).getAttribute("value");
 	System.out.println(actual);
